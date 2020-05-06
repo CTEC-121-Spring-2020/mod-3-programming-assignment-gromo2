@@ -2,14 +2,19 @@
 #   Programming Assignment 4
 #     Prob-2.py
 
-# <YOUR NAME>
+# <Garrett>
 
 '''
-Your IPO comment goes here
+#Inputs: Asks user for name, hourly wage, and hours
+#Process: Calculates tax, insurance, and overtime wages, if applicable
+#Outputs: Total paycheck
 '''
 
 def main():
-    # your code goes here
+    employeeName = input("\nEnter Name: ")
+    
+    print(employeeName)
+
 
 
 main()
