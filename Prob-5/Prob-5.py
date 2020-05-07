@@ -2,10 +2,12 @@
 #   Programming Assignment 4
 #     Prob-5.py
 
-# <YOUR NAME>
+# <Garrett>
 
 def main():
-    x = eval(2)
-    print("x:", x)
+    try:
+        x = eval(2)
+        print("x:", x)
+    except: print("\nA syntax error has occured. Exiting program.\n")
 
 main()

@@ -34,6 +34,7 @@ def main():
     print("Tax Withholding:", taxWithholding)
     print("Insurance Withholding:", insuranceWithholding)
     print("Total Pay:", totalPay)
+    print()
     
 
 main()
